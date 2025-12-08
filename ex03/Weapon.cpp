@@ -6,7 +6,7 @@
 /*   By: carlopez <carlopez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/01 17:22:34 by carlopez          #+#    #+#             */
-/*   Updated: 2025/12/01 17:53:26 by carlopez         ###   ########.fr       */
+/*   Updated: 2025/12/08 16:48:26 by carlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ Weapon::~Weapon()
     std::cout << "Weapon destructed" << std::endl;
 }
 
-std::string Weapon::getType()
+const std::string& Weapon::getType()
 {
     return (this->type);
 }

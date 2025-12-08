@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Harl.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: carlotalcd <carlotalcd@student.42.fr>      +#+  +:+       +#+        */
+/*   By: carlopez <carlopez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/02 19:16:00 by carlopez          #+#    #+#             */
-/*   Updated: 2025/12/02 21:51:08 by carlotalcd       ###   ########.fr       */
+/*   Updated: 2025/12/08 16:59:41 by carlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,6 @@ class Harl
         void info(void);
         void warning(void);
         void error(void);
-    
 };
 
 #endif

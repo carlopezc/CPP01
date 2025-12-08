@@ -6,7 +6,7 @@
 /*   By: carlopez <carlopez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/02 16:32:16 by carlopez          #+#    #+#             */
-/*   Updated: 2025/12/02 19:07:11 by carlopez         ###   ########.fr       */
+/*   Updated: 2025/12/08 16:53:07 by carlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,5 +66,3 @@ int main(int argc, char **argv)
     outfile.close();
     return (0);
 }
-
-// no acepta .length, por eso los convierto en std::string, tambien podria usar strlen
