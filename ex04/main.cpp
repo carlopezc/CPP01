@@ -6,7 +6,7 @@
 /*   By: carlopez <carlopez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/02 16:32:16 by carlopez          #+#    #+#             */
-/*   Updated: 2025/12/08 16:53:07 by carlopez         ###   ########.fr       */
+/*   Updated: 2025/12/10 17:34:24 by carlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,11 @@ int main(int argc, char **argv)
         return (1);
     }
     while (std::getline(file, line))
-        content = content + line + "\n";
+    {
+        content += line;
+        if (!file.eof())
+            content += "\n";
+    }
     file.close();
     while (i < content.length())
     {

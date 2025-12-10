@@ -6,12 +6,12 @@
 #    By: carlopez <carlopez@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/01 16:17:45 by carlopez          #+#    #+#              #
-#    Updated: 2025/12/01 16:23:45 by carlopez         ###   ########.fr        #
+#    Updated: 2025/12/10 16:36:51 by carlopez         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -std=c++98
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -fsanitize=address
 
 NAME = zombie
 SRC = Zombie.cpp main.cpp zombieHorde.cpp

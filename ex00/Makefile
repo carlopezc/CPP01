@@ -3,15 +3,15 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: carlotalcd <carlotalcd@student.42.fr>      +#+  +:+       +#+         #
+#    By: carlopez <carlopez@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/11/20 19:48:18 by carlotalcd        #+#    #+#              #
-#    Updated: 2025/11/20 20:36:24 by carlotalcd       ###   ########.fr        #
+#    Updated: 2025/12/10 15:59:32 by carlopez         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -std=c++98
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -fsanitize=address
 
 NAME = zombie
 SRC = Zombie.cpp main.cpp newZombie.cpp randomChump.cpp

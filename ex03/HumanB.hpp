@@ -6,7 +6,7 @@
 /*   By: carlopez <carlopez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/01 17:22:28 by carlopez          #+#    #+#             */
-/*   Updated: 2025/12/01 19:27:05 by carlopez         ###   ########.fr       */
+/*   Updated: 2025/12/10 17:04:17 by carlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,8 @@ class HumanB
         HumanB(std::string name);
         ~HumanB();
 
-    void attack();
-    void setWeapon(Weapon& weapon);
+        void attack();
+        void setWeapon(Weapon& weapon);
 };
 
 #endif

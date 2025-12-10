@@ -6,12 +6,12 @@
 #    By: carlopez <carlopez@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/01 17:08:38 by carlopez          #+#    #+#              #
-#    Updated: 2025/12/01 17:44:29 by carlopez         ###   ########.fr        #
+#    Updated: 2025/12/10 16:45:12 by carlopez         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -std=c++98
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -fsanitize=address
 
 NAME = ex03
 SRC = main.cpp HumanA.cpp HumanB.cpp Weapon.cpp

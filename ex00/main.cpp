@@ -6,7 +6,7 @@
 /*   By: carlopez <carlopez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/20 20:15:29 by carlotalcd        #+#    #+#             */
-/*   Updated: 2025/12/08 16:29:22 by carlopez         ###   ########.fr       */
+/*   Updated: 2025/12/10 16:15:53 by carlopez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,5 @@ int main(void)
     zombie = newZombie("Marco");
     zombie->announce();
     delete zombie;
-    return (1);
+    return (0);
 }
